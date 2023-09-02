@@ -16,7 +16,6 @@ public class Contador {
         try {
             contar(parametroUm, parametroDois);
         } catch (ParametrosInvalidosException e) {
-            System.out.println(e.getMessage());
         }
     }
 
